@@ -1,0 +1,23 @@
+
+# Clés API et secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Données locales
+*.sqlite
+*.sqlite3
+*.db
+
+# Journaux et fichiers temporaires
+*.log
+logs/
+tmp/
